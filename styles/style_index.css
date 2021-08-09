@@ -1,0 +1,238 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-04-caps/css/bpg-le-studio-04-caps.min.css");
+@import url("//cdn.web-fonts.ge/fonts/bpg-le-studio-04/css/bpg-le-studio-04.min.css");
+
+/*CSS-ის განულება*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*ცვლადები*/
+:root {
+  --bodyBack: #f3f3f4;
+  --font1: "BPG Nino Elite Exp", sans-serif;
+  --font2: "BPG Nino Elite", sans-serif;
+}
+/*body*/
+html,
+body {
+  background-color: var(--bodyBack);
+}
+/*navigation*/
+div.logo {
+  padding: 5px;
+}
+img.navLogo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+p.textInst {
+  font-size: 20px;
+  float: right;
+  margin-top: 15px;
+}
+ul.navbar-nav {
+  margin-left: auto;
+}
+a#navText {
+  font-size: 15px;
+}
+/*slider*/
+div.container-flui {
+  margin-bottom: 50px;
+}
+div#slider {
+  background-color: var(--bodyBack);
+  margin: auto;
+  width: 100%;
+}
+img.imgSlider {
+  width: 100%;
+  height: 600px;
+}
+/*contac form*/
+.body {
+  height: 100%;
+  background-color: var(--bodyBack);
+}
+.main {
+  min-height: 90%;
+}
+.Lmain {
+  padding-bottom: 100px;
+  overflow: auto;
+}
+
+/*cards*/
+div.card {
+  width: 450px;
+  height: auto;
+  margin-top: 30px;
+  
+  transition: 0.3s;
+}
+div.card:hover {
+  transform: scale(1.05);
+  background-color: #a9d6e5;
+  cursor: pointer;
+}
+h6.card-title {
+  font-family: var(--font2);
+  font-size: 20px;
+}
+div.card-image {
+  background-color: white;
+}
+div.card-header {
+  background-color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-family: var(--font2);
+}
+i.iconList {
+  color: #003171;
+  font-size: 20px;
+  float: left;
+}
+div.card-body {
+  background-color: white;
+  text-align: justify;
+  padding: 20px 10px;
+  font-family: var(--font2);
+}
+div.card-footer {
+  width: auto;
+  vertical-align: center;
+}
+.cardImg {
+  width: auto;
+  height: 200px;
+}
+p.cardDate {
+  float: right;
+}
+.divcards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+/*Bookmark*/
+#btnbookmark {
+  margin: auto;
+  position: fixed;
+  z-index: 10;
+  right: 10px;
+  bottom: 20px;
+}
+i#iconBookmark {
+  color: black;
+  font-size: 30px;
+  opacity: 0.5;
+}
+i#iconBookmark:hover {
+  color: white;
+  opacity: 1;
+  transform: rotate(90deg);
+}
+#btnbookmark:hover {
+  transform: scale(1.2);
+}
+
+/*footer*/
+.footer {
+  position: relative;
+  margin-top: -120px;
+  height: 120px;
+  clear: both;
+}
+div.rowContact {
+  display: flex;
+  flex-direction: row;
+  background-color: grey;
+  opacity: 0.5;
+}
+.footerContact {
+  color: white;
+  margin: auto;
+  text-align: justify;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  margin: auto;
+}
+a.adrestext {
+  color: white;
+  text-decoration: none;
+}
+i.addresicon {
+  font-size: larger;
+}
+div.socialMedia {
+  width: 5px;
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  opacity: 0.5;
+  padding: 15px;
+}
+div.tsu {
+  margin-left: 10px;
+}
+i.mediaIcon {
+  color: white;
+  font-size: 40px;
+}
+i.mediaIcon:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  color: #19b5fe;
+}
+img#logoTsu {
+  width: 40px;
+}
+img#logoTsu:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  color: aqua;
+}
+div.copyright {
+  margin: auto;
+  padding-top: 20px;
+  justify-content: center;
+  padding-bottom: 5px;
+}
+/*map*/
+div#map {
+  border: 1px solid lightgrey;
+  width: 100%;
+  height: 800px;
+  background-color: chartreuse;
+  z-index: 1;
+}
+div.sidebar {
+  width: 500px;
+  height: 750px;
+  background-color: brown;
+  margin-left: 10px;
+
+  z-index: 100;
+  top: 10px;
+  left: 10px;
+  opacity: 1;
+}
+/*map*/
+
+div.maps{
+  display: flex;
+}
+
+div#map{
+  width: 100%; 
+  height: 500px; 
+  margin-bottom: 30px;
+}
+

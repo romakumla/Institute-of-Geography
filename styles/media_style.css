@@ -1,0 +1,168 @@
+/*მედია Galaxy S5 (I)*/
+
+@media (max-width: 360px){
+    nav.navbar{
+      width: 360px
+    }
+    img.navLogo{
+      width: 40px; 
+      height: 40px;
+      margin-right: 2px;
+    }
+    a#logoNav{
+      font-size: 15px;
+    }
+    div#slider{
+      max-width: 360px;
+    }
+    img.imgSlider{
+      width: 360px;
+      height: 140px;
+    }
+    
+    div#CardConteiner{
+      justify-content: center;
+      margin: auto;
+      padding-left: 35px;
+      padding-bottom: 2px;
+    }
+    div.cardPlans{
+      width: 240px;
+    }
+    
+    button.button{
+      font-size: 10px;
+    }
+    p.cardDate{
+      font-size: 15px;
+      padding-top: 9px;
+    }
+    
+    img.imgSiaxle{
+      height: 120px;
+    }
+    
+    h6.card-title {
+      font-family: var(--font2);
+      font-size: 15px;
+    }
+    h6.cardHeader {
+      font-family: var(--font1);
+      font-size: 15px;
+      margin: auto;
+      text-align: center;
+    }
+    p.card-text{
+      text-align: justify;
+      font-family: var(--font1);
+      font-size: 15px;
+    }
+    footer#footer{
+      width: 360px;
+    }
+    div#bookmark{
+      float: right;
+      margin-right: 2px;
+    }
+    img#logofooter{
+      width: 60px;
+      height: 60px;
+    }
+    
+    i#mediaIcon{
+      font-size: 15px;
+    }
+    
+    img#logoTsu{
+      width: 15px;
+      margin-left: 0.5px;
+    }
+    div#divMedia{
+      padding: .5px;
+      justify-content: center;
+      margin-right: 5px;
+    }
+    i#contactIcon{
+      color: white;
+      font-size: 15px;
+    }
+    img#imgcontactIcon{
+      width: 15px;
+      height: 15px;
+    }
+    a#textContact{
+      font-size: 10px;
+    }
+    h6#textfooter{
+      font-size: 10px;
+      margin-bottom: 1px;
+    }
+    i#copyText{
+      font-size: 10px;
+    }
+}
+
+/*მედია Galaxy S5 (I)*/
+@media (max-width: 640px){
+    div#slider{
+        max-width: 640px;
+      }
+      img.imgSlider{
+        width: 640px;
+        height: 200px;
+      }
+      button.button{
+        font-size: 10px;
+      }
+      p.cardDate{
+        display: none;
+      }
+      
+      img.imgSiaxle{
+        height: 100px;
+      }
+      /*footer*/
+      footer#footer{
+        width: 640px;
+      }
+      
+      img#logofooter{
+        width: 60px;
+        height: 60px;
+      }
+      
+      i#mediaIcon{
+        font-size: 15px;
+      }
+      
+      img#logoTsu{
+        width: 15px;
+        margin-left: 0.5px;
+      }
+      div#divMedia{
+        padding: .5px;
+        justify-content: center;
+        margin-right: 5px;
+      }
+      i#contactIcon{
+        color: white;
+        font-size: 15px;
+      }
+      img#imgcontactIcon{
+        width: 15px;
+        height: 15px;
+      }
+      a#textContact{
+        font-size: 10px;
+      }
+      h6#textfooter{
+        font-size: 10px;
+        margin-bottom: 1px;
+      }
+      i#copyText{
+        font-size: 10px;
+      }
+      
+}
+
+
